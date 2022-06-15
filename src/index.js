@@ -1,6 +1,7 @@
-// import _ from 'lodash';
 import './style.css';
 import './bootstrap.min.css';
-import renderScore from './scores.js';
+import { getScores } from './utilities.js';
 
-renderScore();
+document.addEventListener('DOMContentLoaded', () => {
+  getScores();
+});

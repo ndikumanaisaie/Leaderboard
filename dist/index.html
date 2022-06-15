@@ -18,34 +18,25 @@
         <div class="score gap-3 d-flex flex-column">
             <div class="head gap-3 d-flex flex-row">
                 <h3>Recent scores</h3>
-                <button type="button" class="btn btn-light shadow">Refresh</button>
+                <button type="button" class="btn btn-light shadow refresh">Refresh</button>
             </div>
             
-            <table class="table table-hover">
-                <tbody>
-                    <tr>
-                        <td>Ndikumana: 10</td>
-                    </tr>
-                    <tr>
-                        <td>Isaie: 19</td>
-                    </tr>
-                    <tr>
-                        <td>Eliane: 12</td>
-                    </tr>
-                  </tbody>
+            <table class="table table-striped">
+                <tbody class="table-body">
+                </tbody>
             </table>
         </div>
         <!-- form for inputting score -->
         <div class="add-score">
             <h3>Add your score</h2>
-            <form class="d-flex flex-column">
+            <form class="d-flex flex-column form1">
                 <div class="col-md-12">
                     <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name">
+                    <input type="text" class="form-control name" id="name">
                 </div>
                 <div class="col-md-12">
                     <label for="number" class="form-label">Score</label>
-                    <input type="number" class="form-control" id="number">
+                    <input type="number" class="form-control score" id="number">
                 </div>
                 <div class="col-12 mt-3">
                     <button type="submit" class="btn btn-primary bg-dark shadow submit">Submit</button>
