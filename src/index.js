@@ -1,6 +1,6 @@
 import './style.css';
 import './bootstrap.min.css';
-import { getScores } from './utilities.js';
+import { getScores } from './utility_functions.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   getScores();

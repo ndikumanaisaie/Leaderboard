@@ -1,5 +1,5 @@
 /* eslint-disable import/no-cycle */
-import displayScore from './dom_manip.js';
+import displayScore from './dom_functions.js';
 
 const requestedURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/';
 export const sendData = async (name, score) => {

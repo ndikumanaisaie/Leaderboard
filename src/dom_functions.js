@@ -1,5 +1,5 @@
 /* eslint-disable import/no-cycle */
-import { sendData, getScores } from './utilities.js';
+import { sendData, getScores } from './utility_functions.js';
 
 const form1 = document.querySelector('.form1');
 const tbody = document.querySelector('.table-body');
