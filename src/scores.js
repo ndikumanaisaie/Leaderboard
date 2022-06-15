@@ -21,6 +21,10 @@ const scoreArray = [
     Name: 'Eliane',
     score: '18',
   },
+  {
+    Name: 'Jane',
+    score: '22',
+  },
 ];
 
 export default () => {
