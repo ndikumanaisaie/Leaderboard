@@ -12,18 +12,18 @@
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
-    <h1>Leaderboard</h1>
-    <main class="container main d-md-flex flex-row">
+    <h1 class="text-dark mx-5 my-4">Leaderboard</h1>
+    <main class="container gap-5 main d-md-flex flex-row">
         <!-- score -->
-        <div class="score g-5 d-flex flex-column">
-            <div class="head d-flex flex-row">
+        <div class="score gap-3 d-flex flex-column">
+            <div class="head gap-3 d-flex flex-row">
                 <h3>Recent scores</h3>
                 <button type="button" class="btn btn-light shadow">Refresh</button>
             </div>
             
-            <table class="table table-hover">
-                <tbody>
-                    <tr>
+            <table class="table table-striped">
+                <tbody class="table-body">
+                    <!-- <tr>
                         <td>Ndikumana: 10</td>
                     </tr>
                     <tr>
@@ -31,24 +31,24 @@
                     </tr>
                     <tr>
                         <td>Eliane: 12</td>
-                    </tr>
+                    </tr> -->
                   </tbody>
             </table>
         </div>
         <!-- form for inputting score -->
         <div class="add-score">
             <h3>Add your score</h2>
-            <form class="column g-3">
-                <div class="col-md-6">
+            <form class="d-flex flex-column">
+                <div class="col-md-12">
                     <label for="name" class="form-label">Name</label>
                     <input type="text" class="form-control" id="name">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <label for="number" class="form-label">Score</label>
                     <input type="number" class="form-control" id="number">
                 </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="col-12 mt-3">
+                    <button type="submit" class="btn btn-primary bg-dark shadow submit">Submit</button>
                 </div>
             </form>
         </div>

@@ -8,6 +8,6 @@ body {
   background-color: rgb(207, 207, 207);
 }
 
-h1 {
-  color: rgb(255, 0, 0);
+.submit {
+  margin-left: 63%;
 }
