@@ -41,11 +41,11 @@
                 <form class="d-flex flex-column form1">
                     <div class="col-md-12">
                         <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control name" id="name">
+                        <input type="text" class="form-control name" id="name" required maxlength="32">
                     </div>
                     <div class="col-md-12">
                         <label for="number" class="form-label">Score</label>
-                        <input type="number" class="form-control score" id="number">
+                        <input type="number" class="form-control score" id="number"  min="0" max="100000000000">
                     </div>
                     <div class="col-12 mt-3 d-flex justify-content-end">
                         <button type="submit" class="btn btn-primary bg-dark shadow submit">Submit</button>

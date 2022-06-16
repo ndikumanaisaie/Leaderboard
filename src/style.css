@@ -50,3 +50,10 @@ body {
   height: 5px;
   background-color: #f8f8f8;
 }
+
+td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 400px;
+}
