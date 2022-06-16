@@ -5,7 +5,7 @@
 > The leaderboard website displays scores submitted by different players. It also allows you to submit your score.
 
 ## Below is the screenshot of my work
-![Leaderboard](https://github.com/ndikumanaisaie/Leaderboard/blob/main/images/shot.png)
+![Leaderboard](https://github.com/ndikumanaisaie/Leaderboard/blob/feature/final_touch/src/images/shot.png)
 
 ## Built with
 - HTML
