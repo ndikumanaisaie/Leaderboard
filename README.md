@@ -24,7 +24,7 @@
 - LinkedIn: [ndikumana-isaie-21166273](https://www.linkedin.com/in/ndikumana-isaie-21166273/)
 
 ## Link to URL on browser
-- [Leaderboard](https://ndikumanaisaie.github.io/To-do-list/dist/)
+- [Leaderboard](https://ndikumanaisaie.github.io/Leaderboard/dist/)
 
 ## Link to URL on gitHub
 - [Leaderboard](https://github.com/ndikumanaisaie/Leaderboard.git)
