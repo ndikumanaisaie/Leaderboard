@@ -18,8 +18,11 @@ export default (scoreArray) => {
   scoreArray.forEach((score) => {
     const tr = document.createElement('tr');
     const td = document.createElement('td');
-    td.innerHTML = `<span> ${score.user} : ${score.score} </span>`;
+    const td1 = document.createElement('td');
+    td.innerHTML = `<span> ${score.user}</span>`;
+    td1.innerHTML = `<span> ${score.score} </span>`;
     tr.appendChild(td);
+    tr.appendChild(td1);
     tbody.appendChild(tr);
   });
 };

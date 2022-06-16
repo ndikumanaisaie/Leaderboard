@@ -8,6 +8,45 @@ body {
   background-color: rgb(207, 207, 207);
 }
 
-.submit {
-  margin-left: 63%;
+.content {
+  border-radius: 8px;
+}
+
+.seven h1 {
+  text-align: center;
+  margin-top: 24px;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #222;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.seven h1::after {
+  position: absolute;
+  top: 23px;
+  left: -150px;
+  content: " ";
+  display: block;
+  width: 124px;
+  border-bottom: 1px solid #4800c5;
+  border-top: 1px solid #4800c5;
+  height: 5px;
+  background-color: #f8f8f8;
+}
+
+.seven h1::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 23px;
+  right: -150px;
+  width: 124px;
+  margin-left: 25rem;
+  border-bottom: 1px solid #4800c5;
+  border-top: 1px solid #4800c5;
+  height: 5px;
+  background-color: #f8f8f8;
 }
